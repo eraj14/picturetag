@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picturetag</title>
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" 
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<script src="picturetag.js"></script>
+<body>
+    <nav><div><h1>PICTURETAG</h1></div></nav>
+    <div class="main">
+        <button class="alltags option" onclick="fetchAllTags()">See all tags</button>
+        <button class="upload option" onclick="upload()">Upload image</button>
+    </div>
+    <div id="fieldcontainer"></div>
+    <div id="tagsContainer"></div>
+    <div id="imagesContainer"></div>
+    <div id="uploadedContainer"></div>
+
+    <form id="uploadForm">
+        <input type="file" id="fileInput" name="fileInput">
+        <button type="submit">Upload</button>
+    </form>
+
+    <footer>Eraj Uzoqov | 2023 </footer>
+    <script src="picturetag.js"></script>
+</body>
+</html>
