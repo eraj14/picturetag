@@ -76,7 +76,6 @@ function displayImagesByTag(tag) {
         .then(res => {
             var imageUrls = res.data;
             imageUrls.forEach(image => {
-                //https://photoapp-iphigenie-cs310.s3.us-east-2.amazonaws.com/t2.jpg
                 var imageUrl = `https://photoapp-eraj-14.s3.us-east-2.amazonaws.com/${image}`;
                 console.log(imageUrl)
                 const imgElement = document.createElement('img');
