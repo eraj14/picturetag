@@ -9,22 +9,24 @@ Browse images by tags
 Responsive design for seamless use across different devices
 
 # Technologies Used
-## HTML
-## CSS
-## JavaScript
-## AWS RDS (Relational Database Service) - for storing image metadata and tag information
-## AWS S3 (Simple Storage Service) - for storing uploaded images securely
-## AWS Rekognition - for image analysis and tag extraction
+ HTML \n
+ CSS \n
+ JavaScript \n
+ AWS RDS (Relational Database Service) - for storing image metadata and tag information \n
+ AWS S3 (Simple Storage Service) - for storing uploaded images securely \n
+ AWS Rekognition - for image analysis and tag extraction \n
 
 # Installation
 Clone the repository:
 
 bash
+
 1) Copy code 
 git clone https://github.com/your-username/picturetag.git
-Open the project folder:
+Open the project folder: \n
 
-bash
+bash \n
+
 2) Copy code
 cd picturetag
 Open index.html in your web browser to access the application.
