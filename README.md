@@ -9,11 +9,16 @@ Browse images by tags
 Responsive design for seamless use across different devices
 
 # Technologies Used
- HTML 
+ HTML
+ 
  CSS 
+ 
  JavaScript 
+ 
  AWS RDS (Relational Database Service) - for storing image metadata and tag information 
+ 
  AWS S3 (Simple Storage Service) - for storing uploaded images securely 
+ 
  AWS Rekognition - for image analysis and tag extraction 
 
 # Installation
